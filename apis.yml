@@ -1,8 +1,24 @@
 aid: vinyl-equity
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vinyl-equity.png
 name: Vinyl Equity
-description: 'Vinyl Equity is a company surfaced as a portfolio company of index-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: business-applications. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Vinyl Equity is a modern transfer agency providing equity, cap-table, and
+  shareholder-management software for private and public companies. Its platform covers
+  registrar services, proxy and AGM (annual general meeting) management, and shareholder
+  security, replacing legacy transfer-agent workflows with a modern web application.
+  Surfaced as a portfolio company of Index Ventures and profiled in the API Evangelist
+  network. No public developer API surface is documented at this time; the profile
+  currently captures the company''s security and compliance posture.'
 url: https://raw.githubusercontent.com/api-evangelist/vinyl-equity/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Business Applications
+- Transfer Agency
+- Cap Table
+- Equity Management
+- Shareholder Management
+- Proxy & AGM
+- Fintech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +46,27 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://vinylequity.com
+  url: https://www.vinylequity.com
+- type: Blog
+  url: https://www.vinylequity.com/blog
+- type: Careers
+  url: https://www.vinylequity.com/careers
+- type: PrivacyPolicy
+  url: https://www.vinylequity.com/privacy-policy
+- type: TermsOfService
+  url: https://www.vinylequity.com/terms-and-conditions
+- type: Security
+  url: security/vinyl-equity-vulnerability-disclosure.yml
+- type: Compliance
+  url: security/vinyl-equity-trust-center.yml
+- type: TrustCenter
+  url: security/vinyl-equity-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/vinyl-equity-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/vinyl-equity-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
